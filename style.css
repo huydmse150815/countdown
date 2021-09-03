@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('Love.jpg');
+    background-color: cornsilk;
+}
+
+h2 {
+    color: pink;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    padding: 2rem;
+    font-weight: bolder;
+}
+
+.waiting {
+    width: 30rem;
+    height: 40rem;
+}
+
+.coming-soon {
+    color: rgba(255, 30, 0, 0.582);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.day, .hour, .minute, .second {
+    font-size: 2rem;
+    color: yellow;
+}
+
