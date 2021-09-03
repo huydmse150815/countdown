@@ -44,3 +44,20 @@ h2 {
     color: yellow;
 }
 
+.photos {
+    border: solid 2px yellow;
+    background-color: rgb(165, 119, 127);
+    border-radius: 80px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.photos a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: yellow;
+    font-size: 2rem;
+}
+
